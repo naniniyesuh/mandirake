@@ -1,6 +1,14 @@
 # App Store Connect metinleri
 
-Ad: **Mandırake** (başkası almışsa: "Mandırake: Yoğurt ve Süt Stoku")
+Ad: **Mandırake** (ana ekranda görünen ad da aynı; uygulama içi başlık logo olarak büyük harf "MANDIRAKE" kalır)
+Ad yedekleri (30 karakter sınırı, sırayla dene; ad başka uygulamada alınmışsa App Store Connect uyarır):
+1. `Mandırake`
+2. `Mandırake: Yoğurt ve Süt Stoku`
+3. `Mandırake - Stok Takibi`
+4. `Mandırake Yoğurt & Süt`
+5. `Mandirake` (ASCII yazım; son çare)
+İngilizce yerelleştirme adı: `Mandırake` (yedek: `Mandırake: Yogurt & Milk Stock`, `Mandırake Stock Tracker`)
+Not: Ana ekran adı (Info.plist `CFBundleDisplayName`) kodda "Mandırake"; mağaza adı farklı olsa bile telefonda böyle görünür.
 Birincil dil: Türkçe — İngilizce yerelleştirme ekle.
 Kategori: Yaşam Tarzı (ikincil: Sağlık ve Fitness)
 Fiyat: Ücretsiz
@@ -21,7 +29,7 @@ Telif: © 2026 Hüseyin İnan
 Kavanozlarını ve buzluktaki anne sütü torbalarını tek yerden takip et. Son kavanoz günü hatırlatma, sütte süre uyarısı, mayalama sayacı.
 
 **Anahtar kelimeler (100):**
-yoğurt,anne sütü,buzluk,stok,sayaç,kavanoz,bebek,mayalama,süt saklama,hatırlatıcı
+mandirake,mandırake,yoğurt,anne sütü,buzluk,stok,sayaç,kavanoz,bebek,mayalama,süt saklama,yogurt
 
 **Açıklama:**
 Mandırake, evde yoğurt mayalayanlar ve anne sütü biriktirenler için sade bir stok takip uygulaması.
@@ -61,7 +69,7 @@ Mandırake tıbbi tavsiye vermez; bir kayıt ve stok takip aracıdır.
 Keep track of your yogurt jars and frozen breast milk bags in one place. Last-jar reminder, freezer time alert and a fermentation timer.
 
 **Keywords (100):**
-yogurt,breast milk,freezer,stock,timer,jar,baby,ferment,milk storage,reminder,tracker
+mandirake,mandırake,yogurt,yoghurt,breast milk,freezer,stock,timer,jar,baby,ferment,milk storage
 
 **Description:**
 Mandırake is a simple stock tracker for people who make yogurt at home and store breast milk.
@@ -90,6 +98,13 @@ ALSO
 Mandırake does not give medical advice; it is a record and stock tracking tool.
 
 **What's new (1.0):** First release.
+
+---
+
+## Anahtar kelime notları
+- Anahtar kelime alanı virgülle ayrılır, boşluk bırakılmaz, en fazla 100 karakter.
+- App Store arama ı/i, ğ/g, ş/s, ç/c, ö/o, ü/u farklarını büyük oranda eşliyor; yine de `mandirake` (ASCII) ve `mandırake` ikisi de eklendi, `yogurt`/`yoghurt` yazım çeşitleri eklendi.
+- Uygulama adındaki ve alt başlıktaki kelimeler (yoğurt, anne sütü, stoğu) zaten aranabilir ve ayrıca anahtar kelimelere yazılması gerekmez; yer kazanmak için kelimeleri tekrarlama.
 
 ---
 
