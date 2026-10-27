@@ -300,7 +300,7 @@ final class AppSettings: ObservableObject {
 
     /// 14:30
     func time(_ d: Date) -> String {
-        d.formatted(.dateTime.hour(.twoDigits(amPM: .omitted)).minute().locale(lang.locale))
+        d.formatted(.dateTime.hour(.twoDigits(amPM: .omitted)).minute(.twoDigits).locale(lang.locale))
     }
 
     /// Gün içi dakika → "12:00"
