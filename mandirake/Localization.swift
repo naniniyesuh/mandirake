@@ -162,7 +162,7 @@ enum L10n {
 
 // MARK: - Birim
 
-enum MilkUnit: String, CaseIterable, Identifiable {
+nonisolated enum MilkUnit: String, CaseIterable, Identifiable {
     case ml, floz
 
     var id: String { rawValue }

@@ -1,11 +1,11 @@
 import Foundation
 import Combine
-import UserNotifications
+@preconcurrency import UserNotifications
 
 /// Buzlukta saklanan tek bir anne sütü torbası.
 /// createdAt: sütün buzluğa konduğu gün ve saat.
 /// thawedAt: çözüldüyse çözüldüğü an (nil ise hâlâ buzlukta).
-struct MilkBag: Identifiable, Codable, Equatable {
+nonisolated struct MilkBag: Identifiable, Codable, Equatable {
     var id = UUID()
     var ml: Int
     var createdAt: Date
@@ -92,7 +92,6 @@ final class MilkStore: ObservableObject {
     /// Ayarlardaki süreyi (örn. 3 ay) dolduran her buzluktaki torba için sabah 10:00'da
     /// bir bildirim kurar. Torbalar, ayarlar, dil ya da uygulama açılışında yeniden hesaplanır.
     func scheduleAlerts() {
-        let center = UNUserNotificationCenter.current()
         let months = Prefs.milkAlertMonths
         let lang = AppSettings.storedLang
         let unit = Prefs.unit
@@ -116,7 +115,8 @@ final class MilkStore: ObservableObject {
         let title = L10n.text(.milkAlertTitle, lang)
         let prefix = Self.alertPrefix
 
-        center.getPendingNotificationRequests { requests in
+        UNUserNotificationCenter.current().getPendingNotificationRequests { requests in
+            let center = UNUserNotificationCenter.current()
             let old = requests.map(\.identifier).filter { $0.hasPrefix(prefix) }
             center.removePendingNotificationRequests(withIdentifiers: old)
             for item in scheduled {

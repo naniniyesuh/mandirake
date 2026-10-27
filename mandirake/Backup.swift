@@ -2,7 +2,7 @@ import SwiftUI
 import UniformTypeIdentifiers
 
 /// Yedek dosyasının içeriği: tüm yoğurt ve anne sütü kayıtları
-struct BackupPayload: Codable {
+nonisolated struct BackupPayload: Codable {
     var version = 1
     var exportedAt = Date()
     var batches: [YogurtBatch]
@@ -12,7 +12,7 @@ struct BackupPayload: Codable {
 }
 
 /// .json olarak kaydedilen / açılan yedek belgesi
-struct BackupDocument: FileDocument {
+nonisolated struct BackupDocument: FileDocument {
     static var readableContentTypes: [UTType] { [.json] }
 
     var payload: BackupPayload

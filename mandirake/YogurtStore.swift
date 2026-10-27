@@ -2,7 +2,7 @@ import Foundation
 import Combine
 import UserNotifications
 
-struct YogurtBatch: Identifiable, Codable, Equatable {
+nonisolated struct YogurtBatch: Identifiable, Codable, Equatable {
     var id = UUID()
     var createdAt: Date
     var jarCount: Int
