@@ -470,7 +470,7 @@ struct ResetSettings: View {
 
 /// App Store'a göndermeden önce kendi bilgilerinle değiştir.
 enum AppInfo {
-    static let privacyURL = URL(string: "https://example.com/mandirake/gizlilik")!
+    static let privacyURL = URL(string: "https://naniniyesuh.github.io/mandirake/privacy.html")!
     static let contactEmail = "iletisim@example.com"
 }
 
