@@ -3,7 +3,7 @@ import Combine
 
 // MARK: - Diller
 
-enum Lang: String, CaseIterable, Identifiable {
+nonisolated enum Lang: String, CaseIterable, Identifiable {
     case tr, en
 
     var id: String { rawValue }
