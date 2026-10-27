@@ -7,8 +7,8 @@ Fiyat: Ücretsiz
 Yaş sınırı: 4+ (anket: hepsine "Hayır"; tıbbi/tedavi bilgisi vermiyor, sadece kayıt tutuyor)
 App Privacy: **Veri toplanmıyor** (Data Not Collected)
 Şifreleme sorusu: Info.plist → `ITSAppUsesNonExemptEncryption` = NO
-Destek URL: https://naniniyesuh.github.io/mandirake/
-Gizlilik URL: https://naniniyesuh.github.io/mandirake/privacy.html
+Destek URL: https://alpp.studio/mandirake/
+Gizlilik URL: https://alpp.studio/mandirake/privacy/
 Telif: © 2026 Hüseyin İnan
 
 ---
