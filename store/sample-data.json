@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "exportedAt": "2026-10-27T10:00:00Z",
+  "batches": [
+    {
+      "id": "00A1A97F-9EDB-425C-B7C8-9C2D0710837D",
+      "createdAt": "2026-10-19T08:30:00Z",
+      "jarCount": 6,
+      "note": "Günlük süt, 8 saat mayaladım. Çok güzel kıvam tuttu.",
+      "endedAt": null
+    },
+    {
+      "id": "92F6BAF9-51FB-470A-BEAF-AB164C0D1BFA",
+      "createdAt": "2026-10-24T07:15:00Z",
+      "jarCount": 6,
+      "note": "Bu sefer biraz daha uzun mayaladım, hafif ekşi oldu.",
+      "endedAt": null
+    }
+  ],
+  "bags": [
+    {
+      "id": "10293555-635F-485F-953D-22F0DC2A6DB1",
+      "ml": 90,
+      "createdAt": "2026-10-12T21:10:00Z",
+      "note": "Akşam sağımı",
+      "thawedAt": null
+    },
+    {
+      "id": "F89C9BC2-5D85-4E20-8E15-3D6B6F0B61CB",
+      "ml": 120,
+      "createdAt": "2026-10-14T07:40:00Z",
+      "note": "Sabah sağımı",
+      "thawedAt": null
+    },
+    {
+      "id": "CFC71BDA-591E-4384-8FD7-ACC0F4C5F847",
+      "ml": 70,
+      "createdAt": "2026-10-15T22:05:00Z",
+      "note": "",
+      "thawedAt": null
+    },
+    {
+      "id": "660B0175-B61B-4521-A06A-3C91CBCD34F2",
+      "ml": 110,
+      "createdAt": "2026-10-17T07:30:00Z",
+      "note": "Buzdolabında 2 saat bekledi",
+      "thawedAt": "2026-10-23T17:00:00Z"
+    },
+    {
+      "id": "28AA076F-0628-432A-94B2-A062A11C17B8",
+      "ml": 100,
+      "createdAt": "2026-10-19T08:20:00Z",
+      "note": "",
+      "thawedAt": null
+    },
+    {
+      "id": "267AE25E-033A-42E7-9254-49E4A1A283AA",
+      "ml": 80,
+      "createdAt": "2026-10-21T21:45:00Z",
+      "note": "Akşam sağımı",
+      "thawedAt": null
+    },
+    {
+      "id": "0BB03C52-F0B4-45DA-89DB-E37A05FAA9BE",
+      "ml": 130,
+      "createdAt": "2026-10-23T07:50:00Z",
+      "note": "Sabah sağımı, bol çıktı",
+      "thawedAt": null
+    },
+    {
+      "id": "58CEAA7A-5B2F-4D42-AC2B-CA1AAD6422F9",
+      "ml": 60,
+      "createdAt": "2026-10-24T14:25:00Z",
+      "note": "",
+      "thawedAt": null
+    },
+    {
+      "id": "B6B33CC2-B077-4D17-85F4-5882D84F03DB",
+      "ml": 100,
+      "createdAt": "2026-10-25T09:10:00Z",
+      "note": "",
+      "thawedAt": null
+    },
+    {
+      "id": "25DD81BE-C54E-464B-A6A1-B12CEFE9A4C8",
+      "ml": 90,
+      "createdAt": "2026-10-26T22:30:00Z",
+      "note": "Gece sağımı",
+      "thawedAt": null
+    }
+  ],
+  "lastFermentMinutes": 495
+}
